@@ -1,0 +1,163 @@
+{
+   "map_width": 1920,
+   "map_height": 1440,
+   "map_color": "000000",
+   "grid_color": "F0F5DA",
+   "shape_color": "F4650E",
+   "selection_color": "3D7CE9",
+   "grid_size": 32,
+   "snap_grid_size": 16,
+   "snap_grid": false,
+   "show_grid": false,
+   "images": [
+      "control.png",
+      "btnPause.png",
+      "btnRestart2.png",
+      "disableMask.png",
+      "btnSound.png",
+      "btnStart.png",
+      "btnRestart.png",
+      "btnQuit.png",
+      "txtPaused.png",
+      "txtCompleted.png",
+      "btnNext.png"
+   ],
+   "layers": [
+      {
+         "name": "controlLeft",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "alpha": 0.3,
+               "touchable": true,
+               "image": 0,
+               "x": 300,
+               "y": 720
+            }
+         ]
+      },
+      {
+         "name": "controlRight",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "flip_x": true,
+               "alpha": 0.3,
+               "touchable": true,
+               "image": 0,
+               "x": 1620,
+               "y": 720
+            }
+         ]
+      },
+      {
+         "name": "btnPause",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "alpha": 0.3,
+               "touchable": true,
+               "image": 1,
+               "x": 1800,
+               "y": 120
+            }
+         ]
+      },
+      {
+         "name": "btnRestart",
+         "visible": true,
+         "locked": true,
+         "objects": [
+            {
+               "alpha": 0.3,
+               "touchable": true,
+               "image": 2,
+               "x": 1580,
+               "y": 116
+            }
+         ]
+      },
+      {
+         "name": "groupPause",
+         "visible": false,
+         "locked": true,
+         "objects": [
+            {
+               "alpha": 0.5,
+               "image": 3,
+               "x": 960,
+               "y": 720
+            },
+            {
+               "name": "btnSound",
+               "touchable": true,
+               "image": 4,
+               "x": 1165,
+               "y": 840
+            },
+            {
+               "name": "btnResume",
+               "touchable": true,
+               "image": 5,
+               "x": 345,
+               "y": 840
+            },
+            {
+               "name": "btnRestart",
+               "touchable": true,
+               "image": 6,
+               "x": 755,
+               "y": 840
+            },
+            {
+               "name": "btnQuit",
+               "touchable": true,
+               "image": 7,
+               "x": 1575,
+               "y": 840
+            },
+            {
+               "image": 8,
+               "x": 960,
+               "y": 480
+            }
+         ]
+      },
+      {
+         "name": "groupGameOver",
+         "visible": false,
+         "locked": true,
+         "objects": [
+            {
+               "alpha": 0.5,
+               "image": 3,
+               "x": 960,
+               "y": 720
+            },
+            {
+               "image": 9,
+               "x": 960,
+               "y": 331
+            },
+            {
+               "name": "btnQuit",
+               "flip_x": true,
+               "touchable": true,
+               "image": 7,
+               "x": 752,
+               "y": 1003
+            },
+            {
+               "name": "btnRestart",
+               "touchable": true,
+               "image": 10,
+               "x": 1168,
+               "y": 1003
+            }
+         ]
+      }
+   ]
+}

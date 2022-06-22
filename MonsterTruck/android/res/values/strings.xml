@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Monster Truck</string> <!-- App name -->
+
+    <item name="show_admob" type="bool">false</item> <!-- Show AdMob (true/false) -->
+
+    <item name="admob_test" type="bool">false</item> <!-- AdMob test mode (true/false) -->
+
+    <item name="connect_games" type="bool">false</item> <!-- Connect to Google Play Games (true/false) -->
+
+    <string name="adMob_banner">123</string> <!-- AdMob Banner ID -->
+
+    <string name="adMob_interstitial">123</string> <!-- AdMob Interstitial ID -->
+
+    <string name="app_id">123</string> <!-- Google Play Games App ID -->
+
+    <string name="leaderboard">123</string> <!-- Google Play Games Leaderboard ID -->
+
+</resources>
